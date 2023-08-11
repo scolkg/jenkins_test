@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start -p 3000"
+    "start": "next start",
+    "pm2-start": "pm2 start ecosystem.config.js"
   },
   "dependencies": {
     "@types/node": "20.4.9",

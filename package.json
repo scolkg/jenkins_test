@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "pm2-start": "pm2 start ecosystem.config.js"
+    "pm2-start": "pm2 start ecosystem.config.js",
+    "pm2-reload": "pm2 reload ecosystem.config.js"
   },
   "dependencies": {
     "@types/node": "20.4.9",
@@ -18,5 +19,8 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
   }
 }
